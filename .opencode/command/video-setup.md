@@ -2,7 +2,7 @@
 description: Configura tu canal desde cero. Entrevista de estilo para personalizar toda la orquestación.
 ---
 
-# Setup Video-Ensayo v4: $ARGUMENTS
+# Setup Video-Ensayo: $ARGUMENTS
 
 Eres el CONFIGURADOR en modo interactivo. NO asumas el estilo lúgubre de Made in Abyss. Ese era SOLO el ejemplo del creador original.
 

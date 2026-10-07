@@ -2,7 +2,7 @@
 Basado en: "Algo está mal en Made in Abyss… y nadie habla de ello" (transcripción real analizada)
 Última actualización: 2026-10-07
 
-## 0. MOTOR vs ESTILO (leer primero en v4)
+## 0. MOTOR vs ESTILO (leer primero)
 
 **Este archivo es el MOTOR, no tu voz.** Lo que NO cambia para nadie: trabajar por fases, cerrar todo hilo que abras, packaging antes que guion, crítica con score, checklist tú-solo-narras, calendario con horarios.
 

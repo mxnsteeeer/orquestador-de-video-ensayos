@@ -2,7 +2,7 @@
 description: Lanza el Council completo. Usa TU estilo de canal/mi-canal.md, no el del ejemplo.
 ---
 
-# Council Video v4: $ARGUMENTS
+# Council Video: $ARGUMENTS
 
 Orden de lectura OBLIGATORIO (no te lo saltes):
 1. `canal/mi-canal.md` — TU estilo. ESTO MANDA. Tono, estructura, duración, prohibidos, packaging.

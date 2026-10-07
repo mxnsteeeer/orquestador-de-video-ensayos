@@ -1,8 +1,8 @@
-# Orquestador de Videos v4 — Sistema de productividad, no clonación
+# Orquestador de video ensayos
 
 Sistema completo para crear contenido: packaging + guion + crítica pros/contras + miniatura + SEO + horarios + calendario.
 
-Filosofía v4: el MOTOR es común (fases, checklist, cerrar hilos), el ESTILO es tuyo. Nadie debe hacer videos como los míos. Cada persona define su voz en el setup y la orquestación trabaja para esa voz.
+Filosofía: el MOTOR es común (fases, checklist, cerrar hilos), el ESTILO es tuyo. Nadie debe hacer videos como los de otro. Cada persona define su voz en el setup y la orquestación trabaja para esa voz.
 
 ## Instalación en Windows (PowerShell)
 
@@ -78,7 +78,7 @@ Para cambiar estilo después: `/video-setup` de nuevo o edita `canal/mi-canal.md
 /video-ensayo Tu tema aquí
 ```
 
-## Agentes v4
+## Agentes
 
 - `configurador` — entrevista y crea tu perfil
 - `ideador` — ideas en TU nicho/tono
