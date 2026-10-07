@@ -1,6 +1,14 @@
-# BIBLIA DE FORMATO - Canal Video-Ensayo Serio
+# BIBLIA DE FORMATO - Motor de productividad (no es tu estilo)
 Basado en: "Algo está mal en Made in Abyss… y nadie habla de ello" (transcripción real analizada)
 Última actualización: 2026-10-07
+
+## 0. MOTOR vs ESTILO (leer primero en v4)
+
+**Este archivo es el MOTOR, no tu voz.** Lo que NO cambia para nadie: trabajar por fases, cerrar todo hilo que abras, packaging antes que guion, crítica con score, checklist tú-solo-narras, calendario con horarios.
+
+**Tu ESTILO vive en `canal/mi-canal.md` y MANDA sobre este archivo.** Si tu mi-canal.md dice tono divertido 8 min, ignoras el ejemplo lúgubre 10-12 min de aquí abajo. El ejemplo lúgubre es SOLO el caso del creador original (`canal/mi-canal.ejemplo.md`). PROHIBIDO clonarlo.
+
+Si no existe `canal/mi-canal.md`, corre `/video-setup` primero. No generes videos sin perfil.
 
 ## 1. ADN (lo que NO cambia)
 

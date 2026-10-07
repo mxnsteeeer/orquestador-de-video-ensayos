@@ -1,21 +1,22 @@
 ---
-description: Lanza el Council completo video-ensayo serio. Orquestación total, no solo guion.
+description: Lanza el Council completo. Usa TU estilo de canal/mi-canal.md, no el del ejemplo.
 ---
 
-# Council Video-Ensayo SERIO v3: $ARGUMENTS
+# Council Video v4: $ARGUMENTS
 
-Lee primero `.opencode/skills/video-ensayo/SKILL.md`. Ese es el canon.
+Orden de lectura OBLIGATORIO (no te lo saltes):
+1. `canal/mi-canal.md` — TU estilo. ESTO MANDA. Tono, estructura, duración, prohibidos, packaging.
+2. `.opencode/skills/video-ensayo/SKILL.md` — el MOTOR (fases, cerrar hilos, checklist). No lo personalizas.
+3. `canal/mi-canal.ejemplo.md` — solo referencia del creador original. PROHIBIDO copiarlo.
 
-Si $ARGUMENTS es "ideas" o está vacío: lee `ideas.md`, lanza `ideador` y devuelve tabla scored. DETENTE.
+Si NO existe `canal/mi-canal.md`: no avances. Di: "Primero corre /video-setup (15 min) para crear tu estilo." y detente. No generes con el estilo lúgubre por defecto.
 
-Si es un tema concreto, orquesta en 4 fases (no saltes orden):
+Si $ARGUMENTS es "ideas" o vacío: lee `ideas.md`, lanza `ideador` usando TU nicho/tono de mi-canal.md, devuelve tabla scored. DETENTE.
 
-**FASE 1 - PACKAGING SERIO:** Task `empaquetador` + `estratega-seo` + `miniaturista` → 3 packs (título + concepto miniatura A/B + tags base). Muestra y pregunta con question tool. DETENTE. No escribas guion sin pack aprobado.
+Si es tema concreto, 4 fases con TU voz:
+**FASE 1 - PACKAGING:** Task `empaquetador` + `estratega-seo` + `miniaturista` (con tu fórmula de títulos y estilo miniatura de mi-canal.md) → 3 packs. Muestra y pregunta. DETENTE.
+**FASE 2 - GUION:** Task `escritor` (usa tu estructura/duración de mi-canal.md, no la de 10-12 min si la cambiaste) → `guiones/<slug>-lectura.txt` + `-guion.md`. Luego `critico` (>=7 + pros/contras). Muestra HOOK + TESIS. Pide grabar 1 toma. DETENTE.
+**FASE 3 - EDICIÓN + SEO:** `cinematografo` (tu ritmo/color) + `estratega-seo` + `miniaturista` + `productor`.
+**FASE 4 - CALENDARIO:** `programador` (tu frecuencia realista) → `calendario/editorial.md`.
 
-**FASE 2 - GUION EN TU VOZ:** Task `escritor` → `guiones/<slug>-lectura.txt` + `-guion.md` (técnico con TC). Luego `critico` (exige score global ≥7 + tabla puntos a favor/en contra + veredicto APROBADO). Muestra HOOK + TESIS + veredicto crítico. Pide grabar 1 toma. DETENTE. Pide duración real.
-
-**FASE 3 - EDICIÓN + SEO FINAL:** Task `cinematografo` (shotlist lenta 6-10s) + `estratega-seo` (descripción + 40-50 tags + timestamps poéticos + comentario fijado → `-seo.md`) + `miniaturista` (prompt final + layout → `assets/miniaturas/<slug>-thumbs.md`) + `productor` (checklist tú-solo-narras).
-
-**FASE 4 - CALENDARIO:** Task `programador` → reserva en `calendario/editorial.md` con fecha grabación/edición/subida + horario LATAM + 2 shorts derivados. Entrega resumen publicable.
-
-Escalabilidad: todo slug kebab-case. Si el tema no tiene descenso/precio/metáfora, el escritor debe decirlo y proponer giro, no forzar.
+Todo slug kebab-case. Si el tema no da para tu estructura, el escritor propone giro, no fuerza.
