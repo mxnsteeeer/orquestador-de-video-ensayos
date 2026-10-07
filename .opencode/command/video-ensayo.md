@@ -1,19 +1,21 @@
 ---
-description: Lanza el Council en formato serio escalable. Para cualquier tópico arbitrario.
-agent: build
+description: Lanza el Council completo video-ensayo serio. Orquestación total, no solo guion.
 ---
 
-# Council Video-Ensayo SERIO v2: $ARGUMENTS
+# Council Video-Ensayo SERIO v3: $ARGUMENTS
 
-Lee primero `.opencode/skills/video-ensayo/FORMATO.md`. Ese es el canon. Todo debe sonar como "Algo está mal en Made in Abyss…" aunque el tema sea música, Shrek o tu vida.
+Lee primero `.opencode/skills/video-ensayo/SKILL.md`. Ese es el canon.
 
-Si $ARGUMENTS es "ideas" o está vacío: lee `ideas.md`, lanza `ideador` y devuelve tabla scored. Detente.
+Si $ARGUMENTS es "ideas" o está vacío: lee `ideas.md`, lanza `ideador` y devuelve tabla scored. DETENTE.
 
-Si es un tema concreto:
-**FASE 1 - PACKAGING SERIO:** Task `empaquetador` + `estratega-seo` → 3 packs estilo serio. Muestra y pregunta con question tool. DETENTE.
+Si es un tema concreto, orquesta en 4 fases (no saltes orden):
 
-**FASE 2 - GUION EN TU VOZ:** Task `escritor` → `guiones/<slug>-lectura.txt` + `-guion.md`. Luego `critico` (exige score ≥7 y tono serio, sin CTA). Muestra HOOK + TESIS. Pide grabar 1 toma. DETENTE. Pide duración real.
+**FASE 1 - PACKAGING SERIO:** Task `empaquetador` + `estratega-seo` + `miniaturista` → 3 packs (título + concepto miniatura A/B + tags base). Muestra y pregunta con question tool. DETENTE. No escribas guion sin pack aprobado.
 
-**FASE 3 - EDICIÓN + SEO:** Task `cinematografo` (plantilla lenta) + `estratega-seo` (tags existenciales como tu video) + `productor` (checklist). Entrega todo.
+**FASE 2 - GUION EN TU VOZ:** Task `escritor` → `guiones/<slug>-lectura.txt` + `-guion.md` (técnico con TC). Luego `critico` (exige score global ≥7 + tabla puntos a favor/en contra + veredicto APROBADO). Muestra HOOK + TESIS + veredicto crítico. Pide grabar 1 toma. DETENTE. Pide duración real.
+
+**FASE 3 - EDICIÓN + SEO FINAL:** Task `cinematografo` (shotlist lenta 6-10s) + `estratega-seo` (descripción + 40-50 tags + timestamps poéticos + comentario fijado → `-seo.md`) + `miniaturista` (prompt final + layout → `assets/miniaturas/<slug>-thumbs.md`) + `productor` (checklist tú-solo-narras).
+
+**FASE 4 - CALENDARIO:** Task `programador` → reserva en `calendario/editorial.md` con fecha grabación/edición/subida + horario LATAM + 2 shorts derivados. Entrega resumen publicable.
 
 Escalabilidad: todo slug kebab-case. Si el tema no tiene descenso/precio/metáfora, el escritor debe decirlo y proponer giro, no forzar.
